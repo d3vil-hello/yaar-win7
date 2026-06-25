@@ -34,6 +34,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
+            
         }
 
         .logo-icon {
@@ -45,8 +46,13 @@
             justify-content: center;
             color: #fff;
             font-size: 18px;
-        }
 
+            
+        }
+.logo-icon h3{
+            gap: 0;
+            
+        }
         .logo span { color: #0CD781; }
 
         /* Desktop Links */

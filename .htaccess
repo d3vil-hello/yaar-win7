@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# index.html ko hatao
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
+
+# www hatao (optional)
+RewriteCond %{HTTP_HOST} ^www\.yaar-win7\.online [NC]
+RewriteRule ^(.*)$ https://yaar-win7.online/$1 [L,R=301]
+
+# HTTPS force karo
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
