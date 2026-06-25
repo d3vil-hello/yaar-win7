@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /assets/
+Disallow: /*.php$
+Disallow: /*.sql$
+
+# Sitemap location
+Sitemap: https://yaar-win7.online/sitemap.xml
+
+# Crawl delay (optional - server load kam karne ke liye)
+Crawl-delay: 10

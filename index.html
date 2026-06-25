@@ -37,7 +37,7 @@
       }
     }
     </script>
-
+<link rel="icon" href="img/yaarwin.jpeg" sizes="any">
     <!-- ============ DNS Preconnect (Speed) ============ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,6 +84,20 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DNXHDH4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+ <!-- Loader HTML -->
+<div id="loader" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#0a0a0a;display:flex;justify-content:center;align-items:center;z-index:99999;transition:opacity 0.5s ease;">
+    <div style="text-align:center;">
+        <div style="width:50px;height:50px;border:4px solid #333;border-top:4px solid #00d452;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 20px;"></div>
+        <p style="color:#fff;font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;">Loading...</p>
+    </div>
+</div>
+
+<style>
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
     <!-- ========== NAVBAR ========== -->
     <nav class="navbar">
         <div class="nav-inner">

@@ -1,13 +1,42 @@
 RewriteEngine On
 
-# index.html ko hatao
-RewriteCond %{THE_REQUEST} /index\.html [NC]
-RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
+# 1. Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
 
-# www hatao (optional)
+# 2. Remove www
 RewriteCond %{HTTP_HOST} ^www\.yaar-win7\.online [NC]
 RewriteRule ^(.*)$ https://yaar-win7.online/$1 [L,R=301]
 
-# HTTPS force karo
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+# 3. Remove index.html from URLs
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
+
+# 4. Serve WebP images automatically
+RewriteCond %{HTTP_ACCEPT} image/webp
+RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+RewriteRule ^(.*)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
+
+# 5. HSTS Security Header
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    Header append Vary Accept env=REDIRECT_accept
+</IfModule>
+
+# 6. Browser Caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/html "access plus 1 day"
+</IfModule>
+
+# 7. Gzip Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+</IfModule>
