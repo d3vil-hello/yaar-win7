@@ -48,7 +48,7 @@ const STORAGE_KEY = 'yaarwinButtons';
 
 const defaults = {
     btn1Text: 'Register Now',
-    btn1Link: 'https://yaarwin.club/#/register?invitationCode=52143161103',
+    btn1Link: 'https://yaarwin.bet/#/register?invitationCode=52143161103',
     btn2Text: 'Join Telegram',
     btn2Link: 'https://t.me/+lbhYSeuPd580MTZl'
 };
