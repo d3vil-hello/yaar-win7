@@ -40,19 +40,24 @@
   
   <!-- Legal Pages -->
   <url>
-    <loc>https://yaar-win7.online/privacy-policy/</loc>
+    <loc>https://yaar-win7.online/privacy%20policy/</loc>
     <lastmod>2026-07-08T10:37:26+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   
   <url>
-    <loc>https://yaar-win7.online/terms-and-conditions/</loc>
+    <loc>https://yaar-win7.online/terms%20&%20conditions/</loc>
     <lastmod>2026-07-08T10:37:26+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   
- 
+ <url>
+    <loc>https://yaar-win7.online/blogs/blog-1/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
 
 </urlset>
