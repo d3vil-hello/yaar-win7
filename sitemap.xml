@@ -1,85 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:fo="http://www.w3.org/1999/XSL/Format"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://yaar-win7.online/</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/contact/</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/responsible/</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/about/</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%201/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%202/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%203/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%204/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%205/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%206/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%207/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%208/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yaar-win7.online/blogs/blog%209/index.html</loc>
-  <lastmod>2026-07-02T10:37:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://yaar-win7.online/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- Main Pages -->
+  <url>
+    <loc>https://yaar-win7.online/contact/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <url>
+    <loc>https://yaar-win7.online/responsible/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  
+  <url>
+    <loc>https://yaar-win7.online/about/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  
+  <url>
+    <loc>https://yaar-win7.online/blogs/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://yaar-win7.online/privacy-policy/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+  
+  <url>
+    <loc>https://yaar-win7.online/terms-and-conditions/</loc>
+    <lastmod>2026-07-08T10:37:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+  
+ 
 
 </urlset>
